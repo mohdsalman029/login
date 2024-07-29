@@ -1,0 +1,99 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logInBox{
+    border: 1px solid white;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: -5px -5px 20px ;
+    border-radius: 16px;
+}
+
+.logIn{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email{
+    width: 240px;
+    padding: 8px;
+    padding-left: 15px;
+    border-radius: 25px;
+    color: black;
+    border: 2px solid white;
+}
+
+.password{
+    padding: 8px;
+    padding-left: 15px;
+    border-radius: 25px;
+    color: black;
+    border: 2px solid white;
+}
+
+.lower{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.lowerUp{
+    display: flex;
+    /* padding: 0px 18px; */
+    font-size: 0.8rem;
+    justify-content: space-around;
+    width: 280px;
+
+}
+
+.lowerMid{
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+.lowerLower{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    
+}
